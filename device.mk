@@ -33,6 +33,7 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    fstab.qcom \
     init.zuk.rc
 
 # Inherit from msm8996-common
