@@ -26,5 +26,8 @@ TARGET_OTA_ASSERT_DEVICE := z2_row
 # Kernel
 TARGET_KERNEL_CONFIG := z2_row_defconfig
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+
 # Inherit from the proprietary version
 -include vendor/zuk/z2_row/BoardConfigVendor.mk
